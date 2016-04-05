@@ -1,4 +1,8 @@
 <?php
+
+    define('MINCHARS', 8);
+    echo MINCHARS;
+
 // set a database connection
    $dbname = "zfdemo";
    $username = "root";

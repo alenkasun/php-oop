@@ -3,8 +3,8 @@
 
     $user1 = new User();
     $user1->email = "bill@gmail.com";
-    $user1->password = "123654";
-    var_dump($user1);
+    $user1->setPassword("123654fg");
+    var_dump($user1->password);
 
     $user2 = new User();
     $user2->email = "sam@gmail.com";
